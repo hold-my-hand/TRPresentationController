@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'TRPresentationController_Example' do
+  pod 'TRPresentationController', :path => '../'
+
+  target 'TRPresentationController_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

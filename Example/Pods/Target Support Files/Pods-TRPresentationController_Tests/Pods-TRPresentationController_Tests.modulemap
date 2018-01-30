@@ -1,0 +1,6 @@
+framework module Pods_TRPresentationController_Tests {
+  umbrella header "Pods-TRPresentationController_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

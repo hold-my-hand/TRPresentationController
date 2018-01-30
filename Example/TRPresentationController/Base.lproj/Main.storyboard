@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="whP-gf-Uak">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="wQg-tq-qST">
+            <objects>
+                <viewController id="whP-gf-Uak" customClass="TRViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="uEw-UM-LJ8"/>
+                        <viewControllerLayoutGuide type="bottom" id="Mvr-aV-6Um"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="TpU-gO-2f1">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sjV-R7-i3O">
+                                <rect key="frame" x="160.5" y="318.5" width="53" height="30"/>
+                                <state key="normal" title="present"/>
+                                <connections>
+                                    <action selector="presentAction:" destination="whP-gf-Uak" eventType="touchUpInside" id="DmW-mL-aQJ"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="sjV-R7-i3O" firstAttribute="centerX" secondItem="TpU-gO-2f1" secondAttribute="centerX" id="HPK-s5-N2Q"/>
+                            <constraint firstItem="sjV-R7-i3O" firstAttribute="centerY" secondItem="TpU-gO-2f1" secondAttribute="centerY" id="zD1-vc-F1j"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tc2-Qw-aMS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="305" y="433"/>
+        </scene>
+        <!--Present View Controller-->
+        <scene sceneID="dFn-T3-Sw3">
+            <objects>
+                <viewController storyboardIdentifier="PresentViewController" id="cNs-yM-BS5" customClass="PresentViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="F67-LE-gu4"/>
+                        <viewControllerLayoutGuide type="bottom" id="j9Q-RY-83q"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="u7Z-3W-x3R">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pBS-Lz-t0v">
+                                <rect key="frame" x="67.5" y="213.5" width="240" height="240"/>
+                                <color key="backgroundColor" red="0.043137254899999998" green="0.50196078430000002" blue="0.94117647059999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="240" id="9UA-mJ-HB3"/>
+                                    <constraint firstAttribute="width" constant="240" id="dzN-65-PC7"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Iz9-GQ-bw2">
+                                <rect key="frame" x="161" y="123.5" width="52" height="30"/>
+                                <state key="normal" title="dismiss"/>
+                                <connections>
+                                    <action selector="forDismiss:" destination="cNs-yM-BS5" eventType="touchUpInside" id="OG6-fw-jAR"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="pBS-Lz-t0v" firstAttribute="top" secondItem="Iz9-GQ-bw2" secondAttribute="bottom" constant="60" id="89m-eV-Ya0"/>
+                            <constraint firstItem="Iz9-GQ-bw2" firstAttribute="centerX" secondItem="u7Z-3W-x3R" secondAttribute="centerX" id="Ntr-XP-Cfq"/>
+                            <constraint firstItem="pBS-Lz-t0v" firstAttribute="centerY" secondItem="u7Z-3W-x3R" secondAttribute="centerY" id="OVC-oe-HIE"/>
+                            <constraint firstItem="pBS-Lz-t0v" firstAttribute="centerX" secondItem="u7Z-3W-x3R" secondAttribute="centerX" id="x0a-HH-3O1"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RrR-Qh-SzU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="288.80000000000001" y="1146.4767616191905"/>
+        </scene>
+    </scenes>
+</document>

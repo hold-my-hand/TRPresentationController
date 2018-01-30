@@ -1,0 +1,6 @@
+framework module TRPresentationController {
+  umbrella header "TRPresentationController-umbrella.h"
+
+  export *
+  module * { export * }
+}
