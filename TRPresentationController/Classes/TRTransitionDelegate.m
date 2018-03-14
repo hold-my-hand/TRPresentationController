@@ -18,7 +18,7 @@ static id _instace = nil;
         dispatch_once(&onceToken, ^{
             _instace = [super allocWithZone:zone];
         });
-    } \
+    } 
     return _instace;
 }
 
