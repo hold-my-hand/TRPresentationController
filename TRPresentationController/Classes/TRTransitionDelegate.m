@@ -35,12 +35,12 @@ static id _instace = nil;
 {
     return [[self alloc] init];
 }
-+ (id)copyWithZone:(struct _NSZone *)zone
+- (id)copyWithZone:(struct _NSZone *)zone
 {
     return _instace;
 }
 
-+ (id)mutableCopyWithZone:(struct _NSZone *)zone
+- (id)mutableCopyWithZone:(struct _NSZone *)zone
 {
     return _instace;
 }

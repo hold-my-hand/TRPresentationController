@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TRPresentationController'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'ViewController自定义转场－基础'
 
 # This description is used to generate tags and improve search results.
