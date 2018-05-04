@@ -31,8 +31,9 @@
     [self.containerView addSubview:self.presentedView];
     
     // 与过渡效果一起执行背景 View 的淡入效果
+    __weak typeof(self) weakSelf = self;
     [[self.presentingViewController transitionCoordinator] animateAlongsideTransitionInView:_visualView  animation:^(id<UIViewControllerTransitionCoordinatorContext>  _Nonnull context) {
-        _visualView .alpha = 0.4;
+        weakSelf.visualView.alpha = 0.4;
         
     } completion:^(id<UIViewControllerTransitionCoordinatorContext>  _Nonnull context) {
         
@@ -45,9 +46,10 @@
 -(void)presentationTransitionDidEnd:(BOOL)completed {
     
     // 如果呈现没有完成，那就移除背景 View
+    __weak typeof(self) weakSelf = self;
     if (!completed) {
         
-        [_visualView removeFromSuperview];
+        [weakSelf.visualView removeFromSuperview];
         
     }
     
@@ -56,9 +58,10 @@
 
 //以上就涵盖了我们的背景 View 的呈现部分，我们现在需要给它添加淡出动画并且在它消失后移除它。正如你预料的那样，dismissalTransitionWillBegin 正是我们把它的 alpha 重新设回0的地方。
 -(void)dismissalTransitionWillBegin {
+    __weak typeof(self) weakSelf = self;
     [[self.presentingViewController transitionCoordinator] animateAlongsideTransitionInView:_visualView animation:^(id<UIViewControllerTransitionCoordinatorContext>  _Nonnull context) {
         
-        _visualView.alpha = 0.0;
+        weakSelf.visualView.alpha = 0.0;
         
     } completion:^(id<UIViewControllerTransitionCoordinatorContext>  _Nonnull context) {
         
