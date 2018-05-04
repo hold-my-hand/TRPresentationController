@@ -64,7 +64,7 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7EF8E708FE38DC4B18DAD717 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A69B8147CE8235FA30D97AC0 /* TRPresentationController.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TRPresentationController.podspec; path = ../TRPresentationController.podspec; sourceTree = "<group>"; };
+		A69B8147CE8235FA30D97AC0 /* TRPresentationController.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TRPresentationController.podspec; path = ../TRPresentationController.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		CC6EEF1A48CB4FDD31F477AE /* Pods_TRPresentationController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TRPresentationController_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E14E3E42A0569BAED6031F40 /* Pods-TRPresentationController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TRPresentationController_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TRPresentationController_Tests/Pods-TRPresentationController_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		E37A87F2882C3B6DC9B954BF /* Pods-TRPresentationController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TRPresentationController_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TRPresentationController_Tests/Pods-TRPresentationController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -213,7 +213,6 @@
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
 				0ED00512A4CC15030D8616F6 /* [CP] Embed Pods Frameworks */,
-				E55E89DCEC4C89CC0ABF224D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -232,8 +231,6 @@
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
-				80DFED5992B5D2FD1A1A2FD5 /* [CP] Embed Pods Frameworks */,
-				9037A805652FC90CBE233830 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -354,51 +351,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		80DFED5992B5D2FD1A1A2FD5 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TRPresentationController_Tests/Pods-TRPresentationController_Tests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		9037A805652FC90CBE233830 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TRPresentationController_Tests/Pods-TRPresentationController_Tests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E55E89DCEC4C89CC0ABF224D /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TRPresentationController_Example/Pods-TRPresentationController_Example-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */

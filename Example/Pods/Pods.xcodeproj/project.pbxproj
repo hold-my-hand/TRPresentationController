@@ -8,20 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		04C46E8A1EC0DEF3BE36C93FC2551942 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		0AC9DA1792C594FEEB7CF3C9733C0E18 /* TRPresentationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BACB49B4FB07BC35A8907A771E117B /* TRPresentationController.m */; };
-		0CB70F49C62DF0BF2CA3EBA23996D3B3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		27E105F9317B2629C5CB8D87AD4154AD /* Pods-TRPresentationController_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F757C9F10A95CC6A95754C296C046D60 /* Pods-TRPresentationController_Tests-dummy.m */; };
+		0AC9DA1792C594FEEB7CF3C9733C0E18 /* TRPresentationController.m in Sources */ = {isa = PBXBuildFile; fileRef = B109DD94A4D26D6689A75FBB616CA77B /* TRPresentationController.m */; };
+		267C9D7036CA50C2CF1B239A996C3913 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		3418A5FCA9385A878F21CC9D1F7EDA02 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		5A589C3DDE2797AA396C631D4930F656 /* Pods-TRPresentationController_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DB9C90C5B015731D80E105E9305BD7EF /* Pods-TRPresentationController_Example-dummy.m */; };
-		675CFF9B10EDF3EBB621ACC7094E1041 /* TRAnimatedTransitioning.h in Headers */ = {isa = PBXBuildFile; fileRef = 71BF79E01FBC76045330F667698439A0 /* TRAnimatedTransitioning.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		79F242410CF286D09493A3241892B357 /* TRPresentationController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F124C9ECAA3A9B1E6F192358932B674D /* TRPresentationController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		82FAD520C6FF64A576EC1CB2EE02E6E8 /* Pods-TRPresentationController_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A39677DB994511EF0F3B0AF09565A72D /* Pods-TRPresentationController_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9F5AF3CD2FA1D9809FBEAD6DC8799A4E /* TRTransitionDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 1952D41A570F48B49D9148F68157CCA2 /* TRTransitionDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A2FB6D324023B007B913352E43C5F3E6 /* TRAnimatedTransitioning.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E0C902C1A34FDF017FFDFA4C7E5D284 /* TRAnimatedTransitioning.m */; };
-		A9C9EAB1558584CD0B10DDBEF68494BB /* TRTransitionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C29768D355BC269EEDBCC6AA1741BC2B /* TRTransitionDelegate.m */; };
-		BAC1652932AD957250D94F01EABD688A /* TRPresentationController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D9C89178A03E085C568C21DB9877E4C2 /* TRPresentationController-dummy.m */; };
-		BC5D4CC51CAFF6A356C19563344DF51E /* Pods-TRPresentationController_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FEE0AACB7FAF8C0FD6A6D04ECF964795 /* Pods-TRPresentationController_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E2839C97B250DBFCC3FBF03796F5A9D3 /* TRPresentationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B9CA9B40619BAB6714304452B4AFE59 /* TRPresentationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3A0127208FD29C340D9A83FDDD23984D /* Pods-TRPresentationController_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 89E88CD0D046EB42A0FD276A55A54042 /* Pods-TRPresentationController_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5A589C3DDE2797AA396C631D4930F656 /* Pods-TRPresentationController_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD1E40077843BDA1031A0155BA461EA /* Pods-TRPresentationController_Example-dummy.m */; };
+		675CFF9B10EDF3EBB621ACC7094E1041 /* TRAnimatedTransitioning.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AA9805D3D39A61E6F5FCD243C5B9582 /* TRAnimatedTransitioning.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		79F242410CF286D09493A3241892B357 /* TRPresentationController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FC8B5A1E869CD5097BB6BDC61283EB78 /* TRPresentationController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		82FAD520C6FF64A576EC1CB2EE02E6E8 /* Pods-TRPresentationController_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C832DAB9C53BACDA7E761267CEC67356 /* Pods-TRPresentationController_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F5AF3CD2FA1D9809FBEAD6DC8799A4E /* TRTransitionDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = F73EB90EC24A6953490193D2A2F314DD /* TRTransitionDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A2FB6D324023B007B913352E43C5F3E6 /* TRAnimatedTransitioning.m in Sources */ = {isa = PBXBuildFile; fileRef = D311A4F9C897CA547D46EECC2885C1B6 /* TRAnimatedTransitioning.m */; };
+		A9C9EAB1558584CD0B10DDBEF68494BB /* TRTransitionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D4D2ABA50A63EFEB54E9DE7BD46E71B0 /* TRTransitionDelegate.m */; };
+		BAC1652932AD957250D94F01EABD688A /* TRPresentationController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DFE6D0648D017523E9BB04930957D3E /* TRPresentationController-dummy.m */; };
+		BC2AB3682DED390D9A178B85111B3B2A /* Pods-TRPresentationController_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 89B8AD846826CC5617E5CCD2BD31140D /* Pods-TRPresentationController_Tests-dummy.m */; };
+		E2839C97B250DBFCC3FBF03796F5A9D3 /* TRPresentationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 4EBA32D923AFE274D6B38B2C4DE5FB3B /* TRPresentationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,46 +32,56 @@
 			remoteGlobalIDString = F23B81F5DE52ABF00B169837FD6F556A;
 			remoteInfo = TRPresentationController;
 		};
+		F4D2A876693A0A078F67A0B6D3A11B7C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 21E7D65D53156841FCA85BC10592896E;
+			remoteInfo = "Pods-TRPresentationController_Example";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0A70547418343E4653A5EBAA82BF2095 /* Pods-TRPresentationController_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TRPresentationController_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		18BACB49B4FB07BC35A8907A771E117B /* TRPresentationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TRPresentationController.m; path = TRPresentationController/Classes/TRPresentationController.m; sourceTree = "<group>"; };
-		1952D41A570F48B49D9148F68157CCA2 /* TRTransitionDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TRTransitionDelegate.h; path = TRPresentationController/Classes/TRTransitionDelegate.h; sourceTree = "<group>"; };
-		1BA20EE32ACD2E8D210F143CDAD1A3BC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1BB2D41B2677A7921B8DBED5C0817A9C /* Pods-TRPresentationController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TRPresentationController_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		26352A861436F2336FA8E9C07D43CC7D /* Pods-TRPresentationController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TRPresentationController_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		27D01D396AA48CC3A1D63E415C3CE1E1 /* Pods-TRPresentationController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TRPresentationController_Example.release.xcconfig"; sourceTree = "<group>"; };
-		2B0A1B62E9D9610D92B2F87AD6DAA7C9 /* Pods-TRPresentationController_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TRPresentationController_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		48391BED8CB2AF8A6549628AAE47AD3F /* TRPresentationController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TRPresentationController-prefix.pch"; sourceTree = "<group>"; };
-		4AF204E1DAC9D033866D2A4D1CAD13C3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4E0C902C1A34FDF017FFDFA4C7E5D284 /* TRAnimatedTransitioning.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TRAnimatedTransitioning.m; path = TRPresentationController/Classes/TRAnimatedTransitioning.m; sourceTree = "<group>"; };
-		4FDF44D00E4B645753450BB9400F7553 /* Pods-TRPresentationController_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TRPresentationController_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		5BC8638F85429BE33ED1FBC9748BFCBC /* Pods-TRPresentationController_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TRPresentationController_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		0312B30FEDC35D36BB836C77C3705E44 /* TRPresentationController.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = TRPresentationController.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		08BBFBDA68DF7D0FA789892F81863C0A /* Pods-TRPresentationController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TRPresentationController_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		16B78525799E28DEE44C219FC5F9A063 /* Pods-TRPresentationController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TRPresentationController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		1AD1E40077843BDA1031A0155BA461EA /* Pods-TRPresentationController_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TRPresentationController_Example-dummy.m"; sourceTree = "<group>"; };
+		20E06E1A5CF097DDFA9C88CB16836634 /* TRPresentationController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TRPresentationController.xcconfig; sourceTree = "<group>"; };
+		2DFE6D0648D017523E9BB04930957D3E /* TRPresentationController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TRPresentationController-dummy.m"; sourceTree = "<group>"; };
+		3DA3E3C8FCF49ACF24224B23ADBE5969 /* Pods-TRPresentationController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TRPresentationController_Example.release.xcconfig"; sourceTree = "<group>"; };
+		42D342CA7BF5850EFEAA0766E22A9863 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		4EBA32D923AFE274D6B38B2C4DE5FB3B /* TRPresentationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TRPresentationController.h; path = TRPresentationController/Classes/TRPresentationController.h; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		6B9CA9B40619BAB6714304452B4AFE59 /* TRPresentationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TRPresentationController.h; path = TRPresentationController/Classes/TRPresentationController.h; sourceTree = "<group>"; };
-		6F394277D8CDE490A01B019EFADBFB8A /* Pods-TRPresentationController_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TRPresentationController_Tests-resources.sh"; sourceTree = "<group>"; };
-		7030E1D6D87380A2660B3F5BC3A62C5F /* Pods-TRPresentationController_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-TRPresentationController_Example.modulemap"; sourceTree = "<group>"; };
-		71BF79E01FBC76045330F667698439A0 /* TRAnimatedTransitioning.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TRAnimatedTransitioning.h; path = TRPresentationController/Classes/TRAnimatedTransitioning.h; sourceTree = "<group>"; };
-		7B74D12BCF971807A6747772FDF7B412 /* TRPresentationController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = TRPresentationController.modulemap; sourceTree = "<group>"; };
+		7AA9805D3D39A61E6F5FCD243C5B9582 /* TRAnimatedTransitioning.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TRAnimatedTransitioning.h; path = TRPresentationController/Classes/TRAnimatedTransitioning.h; sourceTree = "<group>"; };
 		7F7E95DBA10D2BAE0C7103A48D0DF655 /* Pods_TRPresentationController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TRPresentationController_Example.framework; path = "Pods-TRPresentationController_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		935C854F3241B98F8363A60110F5105E /* TRPresentationController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TRPresentationController.xcconfig; sourceTree = "<group>"; };
+		7FEDA46EBCBBF8DE0D2E397E38AEDA70 /* Pods-TRPresentationController_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TRPresentationController_Tests-resources.sh"; sourceTree = "<group>"; };
+		83938CD7B34C18F82698EF76606DC69D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85D3F480BE9075732F4086749451FC9E /* Pods-TRPresentationController_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TRPresentationController_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		89B8AD846826CC5617E5CCD2BD31140D /* Pods-TRPresentationController_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TRPresentationController_Tests-dummy.m"; sourceTree = "<group>"; };
+		89E88CD0D046EB42A0FD276A55A54042 /* Pods-TRPresentationController_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TRPresentationController_Tests-umbrella.h"; sourceTree = "<group>"; };
+		9175136F951B43706CCC31A069A8F743 /* Pods-TRPresentationController_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TRPresentationController_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		928A924F6318AB044C68BD68844C83DD /* Pods-TRPresentationController_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TRPresentationController_Example-resources.sh"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9AC0DB1A9F60F5CB62393B07860CC363 /* Pods-TRPresentationController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TRPresentationController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		A39677DB994511EF0F3B0AF09565A72D /* Pods-TRPresentationController_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TRPresentationController_Example-umbrella.h"; sourceTree = "<group>"; };
-		ADBF839F832F21EC2DDC8EEF5108179C /* Pods-TRPresentationController_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TRPresentationController_Example-resources.sh"; sourceTree = "<group>"; };
-		BA203C11E1B657E377D02AB9BBF969B0 /* Pods-TRPresentationController_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TRPresentationController_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		C29768D355BC269EEDBCC6AA1741BC2B /* TRTransitionDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TRTransitionDelegate.m; path = TRPresentationController/Classes/TRTransitionDelegate.m; sourceTree = "<group>"; };
-		C79047D1AA91EA3046D126DB86B36303 /* Pods-TRPresentationController_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-TRPresentationController_Tests.modulemap"; sourceTree = "<group>"; };
-		D7A5E2993862FA194A0338C18D9C0A66 /* Pods-TRPresentationController_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TRPresentationController_Example-frameworks.sh"; sourceTree = "<group>"; };
-		D9C89178A03E085C568C21DB9877E4C2 /* TRPresentationController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TRPresentationController-dummy.m"; sourceTree = "<group>"; };
-		DB9C90C5B015731D80E105E9305BD7EF /* Pods-TRPresentationController_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TRPresentationController_Example-dummy.m"; sourceTree = "<group>"; };
-		ECDFEDE08262B8BA452C97A2F5C4DB1F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A249ABBA7F7AF2C31A66F6AB328BB1D /* TRPresentationController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TRPresentationController-prefix.pch"; sourceTree = "<group>"; };
+		A240B755ED13F4BE7B68F22B8475C9F3 /* Pods-TRPresentationController_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TRPresentationController_Tests.modulemap"; sourceTree = "<group>"; };
+		A86B7E671EE2CE06DB4B6797F7BAA3A2 /* Pods-TRPresentationController_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TRPresentationController_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A8D10C3E8DE3B4DD2EFD5A662D5CA170 /* Pods-TRPresentationController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TRPresentationController_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		A98A840FFFE0FEC9134F90161D82913A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		B109DD94A4D26D6689A75FBB616CA77B /* TRPresentationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TRPresentationController.m; path = TRPresentationController/Classes/TRPresentationController.m; sourceTree = "<group>"; };
+		BB4C102B89FEB79AB4C2209F047AC1B4 /* Pods-TRPresentationController_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TRPresentationController_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		BBCFA8EAE3E9DC7571025D5A126CB2C5 /* Pods-TRPresentationController_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TRPresentationController_Example.modulemap"; sourceTree = "<group>"; };
+		BFA4AD843E0B141B9F55ECB0081BD7BB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C832DAB9C53BACDA7E761267CEC67356 /* Pods-TRPresentationController_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TRPresentationController_Example-umbrella.h"; sourceTree = "<group>"; };
+		D2BBD1000BEBCAF3CD12F5B94F44888F /* Pods-TRPresentationController_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TRPresentationController_Example-frameworks.sh"; sourceTree = "<group>"; };
+		D311A4F9C897CA547D46EECC2885C1B6 /* TRAnimatedTransitioning.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TRAnimatedTransitioning.m; path = TRPresentationController/Classes/TRAnimatedTransitioning.m; sourceTree = "<group>"; };
+		D4D2ABA50A63EFEB54E9DE7BD46E71B0 /* TRTransitionDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TRTransitionDelegate.m; path = TRPresentationController/Classes/TRTransitionDelegate.m; sourceTree = "<group>"; };
+		DBB0A4C30F808BDDB415B26CDE3512A8 /* TRPresentationController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TRPresentationController.modulemap; sourceTree = "<group>"; };
+		E1C61D58E928108B7CDFF186D8BEABFB /* Pods-TRPresentationController_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TRPresentationController_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		EE48462F178D94CC9BDFA1ABA92398BF /* Pods_TRPresentationController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TRPresentationController_Tests.framework; path = "Pods-TRPresentationController_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F124C9ECAA3A9B1E6F192358932B674D /* TRPresentationController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TRPresentationController-umbrella.h"; sourceTree = "<group>"; };
 		F33B3CA277B12EE519A6D217C3E688F8 /* TRPresentationController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TRPresentationController.framework; path = TRPresentationController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F757C9F10A95CC6A95754C296C046D60 /* Pods-TRPresentationController_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TRPresentationController_Tests-dummy.m"; sourceTree = "<group>"; };
-		FEE0AACB7FAF8C0FD6A6D04ECF964795 /* Pods-TRPresentationController_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TRPresentationController_Tests-umbrella.h"; sourceTree = "<group>"; };
+		F73AD30495159C3A7F8334F524B3D023 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F73EB90EC24A6953490193D2A2F314DD /* TRTransitionDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TRTransitionDelegate.h; path = TRPresentationController/Classes/TRTransitionDelegate.h; sourceTree = "<group>"; };
+		FC8B5A1E869CD5097BB6BDC61283EB78 /* TRPresentationController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TRPresentationController-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,108 +101,79 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		96E0E9D7AFA857E4B103E67258A0345D /* Frameworks */ = {
+		F21C2D28FFDD9C945D5242AE9C0452E1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0CB70F49C62DF0BF2CA3EBA23996D3B3 /* Foundation.framework in Frameworks */,
+				267C9D7036CA50C2CF1B239A996C3913 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0CBCAB7BEB40CEF233AA0591BB4AFC66 /* Pods-TRPresentationController_Tests */ = {
-			isa = PBXGroup;
-			children = (
-				ECDFEDE08262B8BA452C97A2F5C4DB1F /* Info.plist */,
-				C79047D1AA91EA3046D126DB86B36303 /* Pods-TRPresentationController_Tests.modulemap */,
-				BA203C11E1B657E377D02AB9BBF969B0 /* Pods-TRPresentationController_Tests-acknowledgements.markdown */,
-				0A70547418343E4653A5EBAA82BF2095 /* Pods-TRPresentationController_Tests-acknowledgements.plist */,
-				F757C9F10A95CC6A95754C296C046D60 /* Pods-TRPresentationController_Tests-dummy.m */,
-				4FDF44D00E4B645753450BB9400F7553 /* Pods-TRPresentationController_Tests-frameworks.sh */,
-				6F394277D8CDE490A01B019EFADBFB8A /* Pods-TRPresentationController_Tests-resources.sh */,
-				FEE0AACB7FAF8C0FD6A6D04ECF964795 /* Pods-TRPresentationController_Tests-umbrella.h */,
-				9AC0DB1A9F60F5CB62393B07860CC363 /* Pods-TRPresentationController_Tests.debug.xcconfig */,
-				1BB2D41B2677A7921B8DBED5C0817A9C /* Pods-TRPresentationController_Tests.release.xcconfig */,
-			);
-			name = "Pods-TRPresentationController_Tests";
-			path = "Target Support Files/Pods-TRPresentationController_Tests";
-			sourceTree = "<group>";
-		};
 		24FE2AFE3A881B93B2C1E071775A1DA8 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				48AD045B57721131E0C7854C198D81B4 /* Pods-TRPresentationController_Example */,
-				0CBCAB7BEB40CEF233AA0591BB4AFC66 /* Pods-TRPresentationController_Tests */,
+				FE08BAA9E71335C8C20C2CBC68789A92 /* Pods-TRPresentationController_Example */,
+				602A67AB5C94A8602BA853F9C1BAF3AC /* Pods-TRPresentationController_Tests */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		48AD045B57721131E0C7854C198D81B4 /* Pods-TRPresentationController_Example */ = {
+		602A67AB5C94A8602BA853F9C1BAF3AC /* Pods-TRPresentationController_Tests */ = {
 			isa = PBXGroup;
 			children = (
-				4AF204E1DAC9D033866D2A4D1CAD13C3 /* Info.plist */,
-				7030E1D6D87380A2660B3F5BC3A62C5F /* Pods-TRPresentationController_Example.modulemap */,
-				2B0A1B62E9D9610D92B2F87AD6DAA7C9 /* Pods-TRPresentationController_Example-acknowledgements.markdown */,
-				5BC8638F85429BE33ED1FBC9748BFCBC /* Pods-TRPresentationController_Example-acknowledgements.plist */,
-				DB9C90C5B015731D80E105E9305BD7EF /* Pods-TRPresentationController_Example-dummy.m */,
-				D7A5E2993862FA194A0338C18D9C0A66 /* Pods-TRPresentationController_Example-frameworks.sh */,
-				ADBF839F832F21EC2DDC8EEF5108179C /* Pods-TRPresentationController_Example-resources.sh */,
-				A39677DB994511EF0F3B0AF09565A72D /* Pods-TRPresentationController_Example-umbrella.h */,
-				26352A861436F2336FA8E9C07D43CC7D /* Pods-TRPresentationController_Example.debug.xcconfig */,
-				27D01D396AA48CC3A1D63E415C3CE1E1 /* Pods-TRPresentationController_Example.release.xcconfig */,
+				F73AD30495159C3A7F8334F524B3D023 /* Info.plist */,
+				A240B755ED13F4BE7B68F22B8475C9F3 /* Pods-TRPresentationController_Tests.modulemap */,
+				A86B7E671EE2CE06DB4B6797F7BAA3A2 /* Pods-TRPresentationController_Tests-acknowledgements.markdown */,
+				85D3F480BE9075732F4086749451FC9E /* Pods-TRPresentationController_Tests-acknowledgements.plist */,
+				89B8AD846826CC5617E5CCD2BD31140D /* Pods-TRPresentationController_Tests-dummy.m */,
+				E1C61D58E928108B7CDFF186D8BEABFB /* Pods-TRPresentationController_Tests-frameworks.sh */,
+				7FEDA46EBCBBF8DE0D2E397E38AEDA70 /* Pods-TRPresentationController_Tests-resources.sh */,
+				89E88CD0D046EB42A0FD276A55A54042 /* Pods-TRPresentationController_Tests-umbrella.h */,
+				16B78525799E28DEE44C219FC5F9A063 /* Pods-TRPresentationController_Tests.debug.xcconfig */,
+				08BBFBDA68DF7D0FA789892F81863C0A /* Pods-TRPresentationController_Tests.release.xcconfig */,
 			);
-			name = "Pods-TRPresentationController_Example";
-			path = "Target Support Files/Pods-TRPresentationController_Example";
+			name = "Pods-TRPresentationController_Tests";
+			path = "Target Support Files/Pods-TRPresentationController_Tests";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				918C72FB5EC2F6DB92B2421752BBBCAD /* Development Pods */,
+				FFD09F493E1097B89280490D3837AAFE /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				C6CF055F101A65085BD868C0D3E65182 /* Products */,
 				24FE2AFE3A881B93B2C1E071775A1DA8 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		90E73C770E974F010EDC5AAB162DB7ED /* Support Files */ = {
+		83120EF75893B85E04F5DE7EE9AE5016 /* TRPresentationController */ = {
 			isa = PBXGroup;
 			children = (
-				1BA20EE32ACD2E8D210F143CDAD1A3BC /* Info.plist */,
-				7B74D12BCF971807A6747772FDF7B412 /* TRPresentationController.modulemap */,
-				935C854F3241B98F8363A60110F5105E /* TRPresentationController.xcconfig */,
-				D9C89178A03E085C568C21DB9877E4C2 /* TRPresentationController-dummy.m */,
-				48391BED8CB2AF8A6549628AAE47AD3F /* TRPresentationController-prefix.pch */,
-				F124C9ECAA3A9B1E6F192358932B674D /* TRPresentationController-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/TRPresentationController";
-			sourceTree = "<group>";
-		};
-		918C72FB5EC2F6DB92B2421752BBBCAD /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				A0092EBADA9D447385313312FA56E3BE /* TRPresentationController */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		A0092EBADA9D447385313312FA56E3BE /* TRPresentationController */ = {
-			isa = PBXGroup;
-			children = (
-				71BF79E01FBC76045330F667698439A0 /* TRAnimatedTransitioning.h */,
-				4E0C902C1A34FDF017FFDFA4C7E5D284 /* TRAnimatedTransitioning.m */,
-				6B9CA9B40619BAB6714304452B4AFE59 /* TRPresentationController.h */,
-				18BACB49B4FB07BC35A8907A771E117B /* TRPresentationController.m */,
-				1952D41A570F48B49D9148F68157CCA2 /* TRTransitionDelegate.h */,
-				C29768D355BC269EEDBCC6AA1741BC2B /* TRTransitionDelegate.m */,
-				90E73C770E974F010EDC5AAB162DB7ED /* Support Files */,
+				7AA9805D3D39A61E6F5FCD243C5B9582 /* TRAnimatedTransitioning.h */,
+				D311A4F9C897CA547D46EECC2885C1B6 /* TRAnimatedTransitioning.m */,
+				4EBA32D923AFE274D6B38B2C4DE5FB3B /* TRPresentationController.h */,
+				B109DD94A4D26D6689A75FBB616CA77B /* TRPresentationController.m */,
+				F73EB90EC24A6953490193D2A2F314DD /* TRTransitionDelegate.h */,
+				D4D2ABA50A63EFEB54E9DE7BD46E71B0 /* TRTransitionDelegate.m */,
+				9E18E47817512307DF600C9DF77B89B2 /* Pod */,
+				EE6E41078454E28AEEE378C6F1A6100B /* Support Files */,
 			);
 			name = TRPresentationController;
 			path = ../..;
+			sourceTree = "<group>";
+		};
+		9E18E47817512307DF600C9DF77B89B2 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				A98A840FFFE0FEC9134F90161D82913A /* LICENSE */,
+				42D342CA7BF5850EFEAA0766E22A9863 /* README.md */,
+				0312B30FEDC35D36BB836C77C3705E44 /* TRPresentationController.podspec */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -221,22 +202,62 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		EE6E41078454E28AEEE378C6F1A6100B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BFA4AD843E0B141B9F55ECB0081BD7BB /* Info.plist */,
+				DBB0A4C30F808BDDB415B26CDE3512A8 /* TRPresentationController.modulemap */,
+				20E06E1A5CF097DDFA9C88CB16836634 /* TRPresentationController.xcconfig */,
+				2DFE6D0648D017523E9BB04930957D3E /* TRPresentationController-dummy.m */,
+				9A249ABBA7F7AF2C31A66F6AB328BB1D /* TRPresentationController-prefix.pch */,
+				FC8B5A1E869CD5097BB6BDC61283EB78 /* TRPresentationController-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/TRPresentationController";
+			sourceTree = "<group>";
+		};
+		FE08BAA9E71335C8C20C2CBC68789A92 /* Pods-TRPresentationController_Example */ = {
+			isa = PBXGroup;
+			children = (
+				83938CD7B34C18F82698EF76606DC69D /* Info.plist */,
+				BBCFA8EAE3E9DC7571025D5A126CB2C5 /* Pods-TRPresentationController_Example.modulemap */,
+				9175136F951B43706CCC31A069A8F743 /* Pods-TRPresentationController_Example-acknowledgements.markdown */,
+				BB4C102B89FEB79AB4C2209F047AC1B4 /* Pods-TRPresentationController_Example-acknowledgements.plist */,
+				1AD1E40077843BDA1031A0155BA461EA /* Pods-TRPresentationController_Example-dummy.m */,
+				D2BBD1000BEBCAF3CD12F5B94F44888F /* Pods-TRPresentationController_Example-frameworks.sh */,
+				928A924F6318AB044C68BD68844C83DD /* Pods-TRPresentationController_Example-resources.sh */,
+				C832DAB9C53BACDA7E761267CEC67356 /* Pods-TRPresentationController_Example-umbrella.h */,
+				A8D10C3E8DE3B4DD2EFD5A662D5CA170 /* Pods-TRPresentationController_Example.debug.xcconfig */,
+				3DA3E3C8FCF49ACF24224B23ADBE5969 /* Pods-TRPresentationController_Example.release.xcconfig */,
+			);
+			name = "Pods-TRPresentationController_Example";
+			path = "Target Support Files/Pods-TRPresentationController_Example";
+			sourceTree = "<group>";
+		};
+		FFD09F493E1097B89280490D3837AAFE /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				83120EF75893B85E04F5DE7EE9AE5016 /* TRPresentationController */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		4FCEF245DE4E0917F41E5D7F1D094C8C /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BC5D4CC51CAFF6A356C19563344DF51E /* Pods-TRPresentationController_Tests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		55172834F66C47FA70271876F72AB98B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				82FAD520C6FF64A576EC1CB2EE02E6E8 /* Pods-TRPresentationController_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D398E84E5AF7C7174CF1F4E481DE6C23 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A0127208FD29C340D9A83FDDD23984D /* Pods-TRPresentationController_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,17 +275,18 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		14AFA1EDBF876CB8195D51BF849F55F7 /* Pods-TRPresentationController_Tests */ = {
+		11A55A8D46506E0125673098F43C2394 /* Pods-TRPresentationController_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7EB623700CF7E0B0CF5C9C55492C0A77 /* Build configuration list for PBXNativeTarget "Pods-TRPresentationController_Tests" */;
+			buildConfigurationList = C8206322CDDFBC24EC67C31BB7DEE6ED /* Build configuration list for PBXNativeTarget "Pods-TRPresentationController_Tests" */;
 			buildPhases = (
-				ED4D327EBE9FBD07F09A6A8ABFC24700 /* Sources */,
-				96E0E9D7AFA857E4B103E67258A0345D /* Frameworks */,
-				4FCEF245DE4E0917F41E5D7F1D094C8C /* Headers */,
+				7E6BD514A445D2D760CBB71257D1849C /* Sources */,
+				F21C2D28FFDD9C945D5242AE9C0452E1 /* Frameworks */,
+				D398E84E5AF7C7174CF1F4E481DE6C23 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				BB0D2CE6EED3AEFCD407E5D4890F4E64 /* PBXTargetDependency */,
 			);
 			name = "Pods-TRPresentationController_Tests";
 			productName = "Pods-TRPresentationController_Tests";
@@ -312,8 +334,8 @@
 		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0700;
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -328,7 +350,7 @@
 			projectRoot = "";
 			targets = (
 				21E7D65D53156841FCA85BC10592896E /* Pods-TRPresentationController_Example */,
-				14AFA1EDBF876CB8195D51BF849F55F7 /* Pods-TRPresentationController_Tests */,
+				11A55A8D46506E0125673098F43C2394 /* Pods-TRPresentationController_Tests */,
 				F23B81F5DE52ABF00B169837FD6F556A /* TRPresentationController */,
 			);
 		};
@@ -343,6 +365,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		7E6BD514A445D2D760CBB71257D1849C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC2AB3682DED390D9A178B85111B3B2A /* Pods-TRPresentationController_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E74D3D683FE4E129EBDA606BBB688857 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -351,14 +381,6 @@
 				BAC1652932AD957250D94F01EABD688A /* TRPresentationController-dummy.m in Sources */,
 				0AC9DA1792C594FEEB7CF3C9733C0E18 /* TRPresentationController.m in Sources */,
 				A9C9EAB1558584CD0B10DDBEF68494BB /* TRTransitionDelegate.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		ED4D327EBE9FBD07F09A6A8ABFC24700 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				27E105F9317B2629C5CB8D87AD4154AD /* Pods-TRPresentationController_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -371,12 +393,18 @@
 			target = F23B81F5DE52ABF00B169837FD6F556A /* TRPresentationController */;
 			targetProxy = D189BAC55645EF3B1AE8E256B9F9526B /* PBXContainerItemProxy */;
 		};
+		BB0D2CE6EED3AEFCD407E5D4890F4E64 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-TRPresentationController_Example";
+			target = 21E7D65D53156841FCA85BC10592896E /* Pods-TRPresentationController_Example */;
+			targetProxy = F4D2A876693A0A078F67A0B6D3A11B7C /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1E0E4490C025E6951CC0819C010B8D68 /* Debug */ = {
+		2EF8D86EB9354C2CD8CB8E0C4D666212 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 935C854F3241B98F8363A60110F5105E /* TRPresentationController.xcconfig */;
+			baseConfigurationReference = 20E06E1A5CF097DDFA9C88CB16836634 /* TRPresentationController.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -393,6 +421,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/TRPresentationController/TRPresentationController.modulemap";
+				PRODUCT_MODULE_NAME = TRPresentationController;
 				PRODUCT_NAME = TRPresentationController;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -403,7 +432,41 @@
 			};
 			name = Debug;
 		};
-		33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */ = {
+		62B5913D484B0764F57CFAF986FE7C5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3DA3E3C8FCF49ACF24224B23ADBE5969 /* Pods-TRPresentationController_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TRPresentationController_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TRPresentationController_Example/Pods-TRPresentationController_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -413,10 +476,12 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -424,6 +489,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -432,6 +498,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
 				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -456,17 +523,17 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		6DE1815784558FE0E68DF7FCD98F9D61 /* Release */ = {
+		B0A8D26F6C80F098AFE85A13ED23542E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 935C854F3241B98F8363A60110F5105E /* TRPresentationController.xcconfig */;
+			baseConfigurationReference = 16B78525799E28DEE44C219FC5F9A063 /* Pods-TRPresentationController_Tests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -476,47 +543,17 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/TRPresentationController/TRPresentationController-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/TRPresentationController/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/TRPresentationController/TRPresentationController.modulemap";
-				PRODUCT_NAME = TRPresentationController;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		70AD18FA8A04951E26F6191529FB48FF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 26352A861436F2336FA8E9C07D43CC7D /* Pods-TRPresentationController_Example.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-TRPresentationController_Example/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-TRPresentationController_Tests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-TRPresentationController_Example/Pods-TRPresentationController_Example.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-TRPresentationController_Tests/Pods-TRPresentationController_Tests.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_TRPresentationController_Example;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -525,7 +562,7 @@
 			};
 			name = Debug;
 		};
-		731DC216E1A58545B559F6E0A2418060 /* Release */ = {
+		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -535,10 +572,12 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -546,6 +585,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -554,6 +594,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
 				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -574,16 +615,50 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
-		86C5A59C074ABC99E25DC336BB7D4618 /* Release */ = {
+		E8AD9B06832D7817E85E8CB3BBE5FD46 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 27D01D396AA48CC3A1D63E415C3CE1E1 /* Pods-TRPresentationController_Example.release.xcconfig */;
+			baseConfigurationReference = 08BBFBDA68DF7D0FA789892F81863C0A /* Pods-TRPresentationController_Tests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TRPresentationController_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TRPresentationController_Tests/Pods-TRPresentationController_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EAB25E567289FD27A12453C1359185FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8D10C3E8DE3B4DD2EFD5A662D5CA170 /* Pods-TRPresentationController_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -603,73 +678,7 @@
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_TRPresentationController_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		DA02F8D3D17128785E3DAE5869EC4DF2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1BB2D41B2677A7921B8DBED5C0817A9C /* Pods-TRPresentationController_Tests.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-TRPresentationController_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-TRPresentationController_Tests/Pods-TRPresentationController_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_TRPresentationController_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		FA77E4B5B46118D1D749A6E63B8DE540 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9AC0DB1A9F60F5CB62393B07860CC363 /* Pods-TRPresentationController_Tests.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-TRPresentationController_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-TRPresentationController_Tests/Pods-TRPresentationController_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_TRPresentationController_Tests;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -678,14 +687,45 @@
 			};
 			name = Debug;
 		};
+		FE3E912B8E037D3DFEEA60DB74322A79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20E06E1A5CF097DDFA9C88CB16836634 /* TRPresentationController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TRPresentationController/TRPresentationController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TRPresentationController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TRPresentationController/TRPresentationController.modulemap";
+				PRODUCT_MODULE_NAME = TRPresentationController;
+				PRODUCT_NAME = TRPresentationController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
 		0E45FDF001A23D308304D4B5EDA36008 /* Build configuration list for PBXNativeTarget "TRPresentationController" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1E0E4490C025E6951CC0819C010B8D68 /* Debug */,
-				6DE1815784558FE0E68DF7FCD98F9D61 /* Release */,
+				2EF8D86EB9354C2CD8CB8E0C4D666212 /* Debug */,
+				FE3E912B8E037D3DFEEA60DB74322A79 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -693,17 +733,8 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */,
-				731DC216E1A58545B559F6E0A2418060 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		7EB623700CF7E0B0CF5C9C55492C0A77 /* Build configuration list for PBXNativeTarget "Pods-TRPresentationController_Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				FA77E4B5B46118D1D749A6E63B8DE540 /* Debug */,
-				DA02F8D3D17128785E3DAE5869EC4DF2 /* Release */,
+				8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */,
+				B42B54097A876E8A982CBF5DAA91B1AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -711,8 +742,17 @@
 		96E85EE6F1B9755D182BEE8C3ECB96C8 /* Build configuration list for PBXNativeTarget "Pods-TRPresentationController_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				70AD18FA8A04951E26F6191529FB48FF /* Debug */,
-				86C5A59C074ABC99E25DC336BB7D4618 /* Release */,
+				EAB25E567289FD27A12453C1359185FC /* Debug */,
+				62B5913D484B0764F57CFAF986FE7C5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C8206322CDDFBC24EC67C31BB7DEE6ED /* Build configuration list for PBXNativeTarget "Pods-TRPresentationController_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0A8D26F6C80F098AFE85A13ED23542E /* Debug */,
+				E8AD9B06832D7817E85E8CB3BBE5FD46 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

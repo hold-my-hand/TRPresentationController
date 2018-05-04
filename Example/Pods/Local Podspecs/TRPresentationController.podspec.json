@@ -1,9 +1,9 @@
 {
   "name": "TRPresentationController",
-  "version": "0.1.0",
-  "summary": "A short description of TRPresentationController.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/13036101641@163.com/TRPresentationController",
+  "version": "0.1.2",
+  "summary": "ViewController自定义转场－基础",
+  "description": "ViewController自定义转场－基础",
+  "homepage": "https://github.com/hold-my-hand/TRPresentationController.git",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,8 +12,8 @@
     "13036101641@163.com": "jackie.jiang@transn.com"
   },
   "source": {
-    "git": "https://github.com/13036101641@163.com/TRPresentationController.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/hold-my-hand/TRPresentationController.git",
+    "tag": "0.1.2"
   },
   "platforms": {
     "ios": "8.0"

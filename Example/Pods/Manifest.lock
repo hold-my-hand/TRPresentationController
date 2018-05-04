@@ -1,16 +1,16 @@
 PODS:
-  - TRPresentationController (0.1.0)
+  - TRPresentationController (0.1.2)
 
 DEPENDENCIES:
   - TRPresentationController (from `../`)
 
 EXTERNAL SOURCES:
   TRPresentationController:
-    :path: ../
+    :path: "../"
 
 SPEC CHECKSUMS:
-  TRPresentationController: edabab322eea5def1ddbc2109edeb20dbe24aa28
+  TRPresentationController: c7f8f7a83ce3e68246d2b3f5afc44e6ba1851236
 
 PODFILE CHECKSUM: 1269e5599e4f5310426ed3d95784259f4fecd8e4
 
-COCOAPODS: 1.4.0.beta.2
+COCOAPODS: 1.5.0
