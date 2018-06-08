@@ -3,7 +3,7 @@
  *   Pods
  *
  *   Created by 姜政 on 2018/1/30
- *   
+ *
  */
 
 #import "TRAnimatedTransitioning.h"
@@ -22,19 +22,20 @@ const NSTimeInterval duration = 0.35;
 - (void)animateTransition:(id <UIViewControllerContextTransitioning>)transitionContext{
     if (self.presented) {//创建控制器
         UIView *toView = [transitionContext viewForKey:UITransitionContextToViewKey];
+        toView.frame = [UIScreen mainScreen].bounds;
         __block CGRect rect = toView.frame;
         if (self.animateType==AnimateTypeScale){
             toView.alpha = 0;
-            //            toView.transform = CGAffineTransformMakeScale(1.3, 1.3);
             toView.transform = CGAffineTransformMakeScale(0, 0);
         }else if(self.animateType==AnimateTypePush){
             rect.origin.x = rect.size.width;
             toView.frame = rect;
         }else{
-            rect.origin.y = -rect.size.height;
+            rect.origin.y = rect.size.height;
             toView.frame = rect;
         }
-        [UIView animateWithDuration:duration animations:^{
+        
+        [UIView animateWithDuration:[self transitionDuration:transitionContext] animations:^{
             if (self.animateType==AnimateTypeScale){
                 toView.alpha = 1;
                 toView.transform = CGAffineTransformIdentity;//2D动画
@@ -45,21 +46,21 @@ const NSTimeInterval duration = 0.35;
                 rect.origin.y = 0;
                 toView.frame = rect;
             }
-     
+            
         } completion:^(BOOL finished) {
             [transitionContext completeTransition:YES];
         }];
     }else{//销毁控制器
         UIView *fromView = [transitionContext viewForKey:UITransitionContextFromViewKey];
         __block CGRect rect = fromView.frame;
-        [UIView animateWithDuration:duration animations:^{
+        [UIView animateWithDuration:[self transitionDuration:transitionContext] animations:^{
             if (self.animateType==AnimateTypeScale){
                 fromView.transform = CGAffineTransformMakeScale(0.01, 0.01);
             }else if(self.animateType==AnimateTypePush){
                 rect.origin.x = -rect.size.width;
                 fromView.frame = rect;
             }else{
-                rect.origin.y = -rect.size.height;
+                rect.origin.y = rect.size.height;
                 fromView.frame = rect;
             }
         } completion:^(BOOL finished) {
