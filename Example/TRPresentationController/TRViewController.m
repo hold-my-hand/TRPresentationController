@@ -25,7 +25,7 @@
     UIViewController *vc = [mainSB instantiateViewControllerWithIdentifier:@"PresentViewController"];
     vc.modalPresentationStyle = UIModalPresentationCustom;// 设置 动画样式
     vc.transitioningDelegate = [TRTransitionDelegate sharedTransition];
-    [TRTransitionDelegate sharedTransition].animateType = AnimateTypeScale;
+    [TRTransitionDelegate sharedTransition].animateType = AnimateTypePush;
     [self presentViewController:vc animated:YES completion:nil];
 }
 

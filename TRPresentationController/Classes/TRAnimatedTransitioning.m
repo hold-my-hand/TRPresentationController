@@ -40,7 +40,7 @@ const NSTimeInterval duration = 0.35;
                 toView.alpha = 1;
                 toView.transform = CGAffineTransformIdentity;//2D动画
             }else if(self.animateType==AnimateTypePush){
-                rect.origin.x = 40;//注意同PresentationController设置的尺寸位置相关
+                rect.origin.x = 0;//注意同PresentationController设置的尺寸位置相关
                 toView.frame = rect;
             }else{
                 rect.origin.y = 0;
@@ -57,7 +57,7 @@ const NSTimeInterval duration = 0.35;
             if (self.animateType==AnimateTypeScale){
                 fromView.transform = CGAffineTransformMakeScale(0.01, 0.01);
             }else if(self.animateType==AnimateTypePush){
-                rect.origin.x = -rect.size.width;
+                rect.origin.x = rect.size.width;
                 fromView.frame = rect;
             }else{
                 rect.origin.y = rect.size.height;
